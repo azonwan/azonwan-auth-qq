@@ -1,5 +1,5 @@
 {
-    "name": "azonwan/flarum-auth-qq",
+    "name": "azonwan/azonwan-auth-qq",
     "description": "Allow users to log in with QQ.",
     "type": "flarum-extension",
     "keywords": ["authentication"],
