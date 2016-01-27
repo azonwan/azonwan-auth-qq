@@ -15,7 +15,7 @@ use Flarum\Forum\UrlGenerator;
 use Flarum\Http\Controller\ControllerInterface;
 use Flarum\Settings\SettingsRepositoryInterface;
 use Illuminate\Contracts\Bus\Dispatcher;
-use League\OAuth2\Client\Provider\QQ;
+use Azonwan\Auth\QQ\Provider\QQ;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Zend\Diactoros\Response\RedirectResponse;
 
