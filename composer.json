@@ -11,8 +11,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/azonwan/flarum-auth-qq/issues",
-        "source": "https://github.com/azonwan/flarum-auth-qq"
+        "issues": "https://github.com/azonwan/azonwan-auth-qq/issues",
+        "source": "https://github.com/azonwan/azonwan-auth-qq"
     },
     "require": {
         "flarum/core": "^0.1.0-beta.3"
