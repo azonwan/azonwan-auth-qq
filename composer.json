@@ -1,0 +1,35 @@
+{
+    "name": "azonwan/flarum-auth-qq",
+    "description": "Allow users to log in with QQ.",
+    "type": "flarum-extension",
+    "keywords": ["authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Azon Wan",
+            "email": "xudong8860@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/azonwan/flarum-auth-qq/issues",
+        "source": "https://github.com/azonwan/flarum-auth-qq"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3",
+    },
+    "autoload": {
+        "psr-4": {
+            "Azonwan\\Auth\\QQ\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "QQ Login",
+            "icon": {
+                "name": "qq",
+                "backgroundColor": "#eee",
+                "color": "#333"
+            }
+        }
+    }
+}
