@@ -1,5 +1,5 @@
 {
-    "name": "azonwan/azonwan-auth-qq",
+    "name": "azonwan/auth-qq",
     "description": "Allow users to log in with QQ.",
     "type": "flarum-extension",
     "keywords": ["authentication"],
@@ -15,7 +15,8 @@
         "source": "https://github.com/azonwan/azonwan-auth-qq"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.3"
+        "flarum/core": "^0.1.0-beta.3",
+        "league/oauth2-client": "^0.2.0"
     },
     "autoload": {
         "psr-4": {
