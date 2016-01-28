@@ -7,7 +7,7 @@ A [Flarum](http://flarum.org) extension to allow user login by QQ.
 ## Install
 
 ```bash
-composer require azonwan/azonwan-auth-qq
+composer require azonwan/auth-qq
 ```
 
 ## Configuration
